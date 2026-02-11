@@ -8,7 +8,7 @@ variable "anthropic_api_key" {
 }
 
 module "workspace" {
-  source = "git::https://github.com/codespacesh/templates.git//dind/module?ref=v1.1.3"
+  source = "git::https://github.com/codespacesh/templates.git//dind/module?ref=v1.1.4"
 
   project_name = "example-openclaw"
   git_repos    = { "example-openclaw" = "https://github.com/codespacesh/example-openclaw" }
